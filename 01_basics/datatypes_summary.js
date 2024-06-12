@@ -30,7 +30,7 @@ let myObj ={
 }
 
 let myFunction = function(){
-    console.log("hello world");
+    // console.log("hello world");
 }
 
 
@@ -48,3 +48,33 @@ let myFunction = function(){
 //        Arrays  =>  object
 //        Function  => object function
 //        Object  =>  object
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack(Primitive), Heap(Non-Primitive)
+
+let myGitHubName = "bmahendra16"
+
+let anotherName = myGitHubName
+anotherName = "mbohara16"
+
+console.log(anotherName);
+console.log(myGitHubName);
+/* Stack ma koini first declear name change garera value change 
+garesi tyo naya name ma purano name ko copy value aauxa 
+ani tyo naya name ko value change garda copy ko value change 
+hunxa but purano name ko value same hunxa jo hamle first ma 
+declear garya hunxau */
+
+
+let userOne = {
+    email: "mbohara991@gmail.com",
+    number: 9865903774
+}
+
+let userTwo = userOne
+
+userTwo.email="mgoogle.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
